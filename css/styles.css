@@ -3,7 +3,29 @@
 }
 
 .initially-seen {
-  cursor: pointer;
-  text-decoration: underline;
   color: darkblue;
+  text-align: center;
+}
+
+.col-lg-4 {
+  height: 150px;
+  border: 1px solid gray;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.col-lg-4:hover {
+  background-color: lightgray;
+}
+
+.initially-seen,
+.initially-hidden {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*border: red solid;*/
 }
