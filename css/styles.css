@@ -1,0 +1,9 @@
+.initially-hidden {
+  display: none;
+}
+
+.initially-seen {
+  cursor: pointer;
+  text-decoration: underline;
+  color: darkblue;
+}
